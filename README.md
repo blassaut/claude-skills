@@ -1,6 +1,6 @@
 # claude-skills
 
-Shared Claude Code configuration and skills for all my projects.
+Shared Claude Code configuration and skills for Web3 QA projects.
 
 ## What's included
 
@@ -36,17 +36,40 @@ Then add any project-specific instructions below the shared ones.
 
 ## Skills included
 
-| Skill | Source |
-|---|---|
-| brainstorming | obra/superpowers |
-| requesting-code-review | obra/superpowers |
-| subagent-driven-development | obra/superpowers |
-| test-driven-development | obra/superpowers |
-| writing-plans | obra/superpowers |
-| clean-code | sickn33/antigravity-awesome-skills |
-| security-best-practices | supercent-io/skills-template |
-| agent-browser | vercel-labs/agent-browser |
-| web-design-guidelines | vercel-labs/agent-skills |
-| vercel-react-best-practices | vercel-labs/agent-skills |
-| seo-audit | coreyhaines31/marketingskills |
-| frontend-design | anthropics/skills |
+### Planning and workflow
+
+| Skill | Source | Why |
+|---|---|---|
+| brainstorming | obra/superpowers | Explore intent, requirements, and design before jumping into implementation |
+| writing-plans | obra/superpowers | Design multi-step implementation plans from specs or requirements |
+| subagent-driven-development | obra/superpowers | Parallelize independent tasks using specialized sub-agents |
+
+### Code quality
+
+| Skill | Source | Why |
+|---|---|---|
+| clean-code | sickn33/antigravity-awesome-skills | Review code for reuse, quality, and efficiency (Uncle Bob principles) |
+| requesting-code-review | obra/superpowers | Run a structured code review before pushing any branch |
+| security-best-practices | supercent-io/skills-template | Audit for OWASP Top 10, XSS, CSRF, and common web vulnerabilities |
+
+### Testing
+
+| Skill | Source | Why |
+|---|---|---|
+| test-driven-development | obra/superpowers | Write tests first, then implementation - core QA workflow |
+| e2e-testing-patterns | wshobson/agents | E2E test architecture and patterns for web applications |
+| playwright-best-practices | currents-dev | Synpress is Playwright-based - directly applicable to dApp E2E testing |
+| backend-testing | supercent-io/skills-template | API and backend testing for staking endpoints, RPC calls, etc. |
+
+### Automation and ops
+
+| Skill | Source | Why |
+|---|---|---|
+| agent-browser | vercel-labs/agent-browser | Automate browser interactions for dApp E2E flows with wallet mocking |
+| deployment-automation | supercent-io/skills-template | CI/CD pipelines for test automation and contract deployments |
+
+### Documentation
+
+| Skill | Source | Why |
+|---|---|---|
+| technical-writing | supercent-io/skills-template | Test plans, bug reports, QA runbooks, and technical documentation |
