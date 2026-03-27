@@ -30,19 +30,6 @@ npx skills add https://github.com/obra/superpowers --skill writing-plans
 echo "--- clean-code ---"
 npx skills add https://github.com/sickn33/antigravity-awesome-skills --skill clean-code
 
-# supercent-io/skills-template
-echo "--- security-best-practices ---"
-npx skills add https://github.com/supercent-io/skills-template --skill security-best-practices
-
-echo "--- backend-testing ---"
-npx skills add https://github.com/supercent-io/skills-template --skill backend-testing
-
-echo "--- deployment-automation ---"
-npx skills add https://github.com/supercent-io/skills-template --skill deployment-automation
-
-echo "--- technical-writing ---"
-npx skills add https://github.com/supercent-io/skills-template --skill technical-writing
-
 # vercel-labs
 echo "--- agent-browser ---"
 npx skills add https://github.com/vercel-labs/agent-browser --skill agent-browser
@@ -53,7 +40,7 @@ npx skills add https://github.com/wshobson/agents --skill e2e-testing-patterns
 
 # currents-dev
 echo "--- playwright-best-practices ---"
-npx skills add https://github.com/currents-dev --skill playwright-best-practices
+npx skills add https://github.com/currents-dev/playwright-best-practices-skill
 
 echo ""
 echo "All skills installed."
