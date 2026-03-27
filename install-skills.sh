@@ -34,23 +34,26 @@ npx skills add https://github.com/sickn33/antigravity-awesome-skills --skill cle
 echo "--- security-best-practices ---"
 npx skills add https://github.com/supercent-io/skills-template --skill security-best-practices
 
+echo "--- backend-testing ---"
+npx skills add https://github.com/supercent-io/skills-template --skill backend-testing
+
+echo "--- deployment-automation ---"
+npx skills add https://github.com/supercent-io/skills-template --skill deployment-automation
+
+echo "--- technical-writing ---"
+npx skills add https://github.com/supercent-io/skills-template --skill technical-writing
+
 # vercel-labs
 echo "--- agent-browser ---"
 npx skills add https://github.com/vercel-labs/agent-browser --skill agent-browser
 
-echo "--- web-design-guidelines ---"
-npx skills add https://github.com/vercel-labs/agent-skills --skill web-design-guidelines
+# wshobson/agents
+echo "--- e2e-testing-patterns ---"
+npx skills add https://github.com/wshobson/agents --skill e2e-testing-patterns
 
-echo "--- vercel-react-best-practices ---"
-npx skills add https://github.com/vercel-labs/agent-skills --skill vercel-react-best-practices
-
-# coreyhaines31/marketingskills
-echo "--- seo-audit ---"
-npx skills add https://github.com/coreyhaines31/marketingskills --skill seo-audit
-
-# anthropics/skills
-echo "--- frontend-design ---"
-npx skills add https://github.com/anthropics/skills --skill frontend-design
+# currents-dev
+echo "--- playwright-best-practices ---"
+npx skills add https://github.com/currents-dev --skill playwright-best-practices
 
 echo ""
 echo "All skills installed."
