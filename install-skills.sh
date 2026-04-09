@@ -34,10 +34,6 @@ npx skills add https://github.com/sickn33/antigravity-awesome-skills --skill cle
 echo "--- agent-browser ---"
 npx skills add https://github.com/vercel-labs/agent-browser --skill agent-browser
 
-# wshobson/agents
-echo "--- e2e-testing-patterns ---"
-npx skills add https://github.com/wshobson/agents --skill e2e-testing-patterns
-
 # currents-dev
 echo "--- playwright-best-practices ---"
 npx skills add https://github.com/currents-dev/playwright-best-practices-skill
