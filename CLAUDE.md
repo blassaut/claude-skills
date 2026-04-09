@@ -22,5 +22,6 @@ For any non-trivial work, follow this sequence:
 3. **Clean code** - Review for quality, reuse, and efficiency
 4. **Code review** - Run a review pass before pushing
 5. **Security check** - Audit for common vulnerabilities
-6. **Tests** - Ensure all tests pass
-7. **Commit + Push** - Commit with a clear message, push the branch, open a PR
+6. **Best QA practices** - Use playwright best practices
+7. **Tests** - Ensure all tests pass
+8. **Commit + Push** - Commit with a clear message, push the branch, open a PR

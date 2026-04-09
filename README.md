@@ -56,7 +56,6 @@ Then add any project-specific instructions below the shared ones.
 | Skill | Source | Why |
 |---|---|---|
 | test-driven-development | obra/superpowers | Write tests first, then implementation - core QA workflow |
-| e2e-testing-patterns | wshobson/agents | E2E test architecture and patterns for web applications |
 | playwright-best-practices | currents-dev/playwright-best-practices-skill | Synpress is Playwright-based - directly applicable to dApp E2E testing |
 
 ### Automation and ops
