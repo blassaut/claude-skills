@@ -25,3 +25,12 @@ For any non-trivial work, follow this sequence:
 6. **Best QA practices** - Use playwright best practices
 7. **Tests** - Ensure all tests pass
 8. **Commit + Push** - Commit with a clear message, push the branch, open a PR
+
+## Coding Principles (Karpathy)
+
+Applies to all code work. Source: andrej-karpathy-skills.
+
+- **Think before coding** - State assumptions explicitly. If ambiguous, ask. Don't pick silently between interpretations.
+- **Surgical changes** - Touch only what the task requires. No opportunistic refactoring, no "improvements" to adjacent code. Every changed line must trace to the request.
+- **Simplicity first** - Minimum code that solves the problem. No speculative flexibility, no abstractions for single-use code, no error handling for impossible scenarios.
+- **Goal-driven execution** - Transform each task into a verifiable criterion (test that reproduces the bug, assertion that validates the feature). Weak criteria ("make it work") force clarification loops; strong criteria let the work run independently.
